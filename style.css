@@ -1,0 +1,35 @@
+#container {
+    position: relative;
+}
+
+#ball {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: fixed;
+    top: 20px;
+    left: 52.5%;
+    border-radius: 50%;
+}
+
+#rod1,
+#rod2 {
+    width: 300px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#rod1 {
+    background-color: rgb(93, 0, 180);
+    top: 0px
+}
+
+#rod2 {
+    background-color: rgb(0, 0, 164);
+    bottom: 0px;
+}
